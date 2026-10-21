@@ -1,0 +1,56 @@
+﻿
+@model FeedBackManagmentSystem.Models.FeedBack
+
+@{
+    ViewBag.Title = "Give Feedback";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form-card">
+    @Html.Partial("_StudentInfo")
+
+    <h5>Fill Feedback Details</h5>
+    <p class="subtitle">Share your valuable feedback with us.</p>
+
+    @using (Html.BeginForm())
+    {
+        <table class="form-table">
+            <tr>
+                <td>@Html.LabelFor(m => m.Name)</td>
+                <td>@Html.TextBoxFor(m => m.Name)</td>
+                <td>@Html.ValidationMessageFor(m => m.Name)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.EnrollMentNo)</td>
+                <td>@Html.EditorFor(m => m.EnrollMentNo)</td>
+                <td>@Html.ValidationMessageFor(m => m.EnrollMentNo)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.Course)</td>
+                <td>@Html.TextBoxFor(m => m.Course)</td>
+                <td>@Html.ValidationMessageFor(m => m.Course)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.Subject)</td>
+                <td>@Html.TextBoxFor(m => m.Subject)</td>
+                <td>@Html.ValidationMessageFor(m => m.Subject)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.Rating)</td>
+                <td>@Html.EditorFor(m => m.Rating)</td>
+                <td>@Html.ValidationMessageFor(m => m.Rating)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(m => m.Comments)</td>
+                <td>@Html.TextAreaFor(m => m.Comments)</td>
+                <td>@Html.ValidationMessageFor(m => m.Comments)</td>
+            </tr>
+        </table>
+
+        <input type="submit" name="submit" value="Submit Feedback" />
+    }
+
+    <br />
+    @Html.ActionLink("← Back to Home", "Index", "FeedBack",
+        null, new { @class = "secondary" })
+</div>

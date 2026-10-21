@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|c:\\users\\rudra\\downloads\\feedbackmanagement-fixed\\feedbackmanagement-system-mvc-master\\views\\shared\\_studentinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|solutionrelative:views\\shared\\_studentinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|solutionrelative:Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\FeedBack\\List.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|solutionrelative:Views\\FeedBack\\List.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|solutionrelative:views\\feedback\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\views\\feedback\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|solutionrelative:views\\feedback\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Models\\FeedBack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|solutionrelative:Models\\FeedBack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Controllers\\FeedBackController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|solutionrelative:Controllers\\FeedBackController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C245CD5-EBFD-4FC5-A1AE-3AAE31F05A5F}|FeedBackManagmentSystem.csproj|solutionrelative:app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FeedBack.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Models\\FeedBack.cs",
+              "RelativeDocumentMoniker": "Models\\FeedBack.cs",
+              "ToolTip": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Models\\FeedBack.cs",
+              "RelativeToolTip": "Models\\FeedBack.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T02:46:43.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\FeedBack\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\FeedBack\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\FeedBack\\Create.cshtml",
+              "RelativeToolTip": "Views\\FeedBack\\Create.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-06T02:54:47.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\FeedBack\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\FeedBack\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\FeedBack\\Index.cshtml",
+              "RelativeToolTip": "Views\\FeedBack\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T02:53:25.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\FeedBack\\List.cshtml",
+              "RelativeDocumentMoniker": "Views\\FeedBack\\List.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\FeedBack\\List.cshtml",
+              "RelativeToolTip": "Views\\FeedBack\\List.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-06T03:06:46.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAuwBEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-29T02:51:53.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_StudentInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\Shared\\_StudentInfo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_StudentInfo.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Views\\Shared\\_StudentInfo.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_StudentInfo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-06T02:50:45.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FeedBackController.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Controllers\\FeedBackController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FeedBackController.cs",
+              "ToolTip": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\Controllers\\FeedBackController.cs",
+              "RelativeToolTip": "Controllers\\FeedBackController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T02:49:55.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\rudra\\Downloads\\FeedbackManagement-Fixed\\FeedbackManagement-System-MVC-master\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-17T08:11:15.034Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

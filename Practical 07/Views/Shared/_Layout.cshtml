@@ -1,0 +1,129 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - Feedback Portal</title>
+
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding: 30px 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333;
+            background: #f2f4f6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 24px;
+            background: #fff;
+            border: 1px solid #d7dde3;
+        }
+        h1 {
+            margin: 0;
+            color: #245780;
+            font-size: 26px;
+            font-weight: 600;
+            text-align: center;
+        }
+        h5 { margin: 20px 0 8px; font-size: 18px; }
+        hr { border: 0; border-top: 1px solid #ddd; margin: 20px 0; }
+        p { margin: 8px 0; }
+        .subtitle { color: #666; }
+        a, input[type=submit] {
+            display: inline-block;
+            padding: 9px 18px;
+            margin: 4px 4px 4px 0;
+            border: 1px solid #286090;
+            border-radius: 3px;
+            background: #337ab7;
+            color: #fff;
+            font: inherit;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        a:hover, input[type=submit]:hover { background: #286090; }
+        .secondary { background: #f5f5f5; color: #333; border-color: #bbb; }
+        .secondary:hover { background: #e7e7e7; color: #222; }
+        a:focus-visible, input[type=submit]:focus-visible {
+            outline: 2px solid #245780;
+            outline-offset: 3px;
+        }
+        .student-banner {
+            padding: 16px;
+            background: #edf4fa;
+            border-left: 4px solid #337ab7;
+            text-align: left;
+        }
+        .student-banner h5 { margin: 0 0 4px; font-size: 17px; }
+        .student-banner p { margin: 0; color: #555; }
+        .home-actions { text-align: center; margin: 24px 0 14px; }
+        .form-card { max-width: 800px; margin: 0 auto; }
+        .form-table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+        .form-table td { padding: 8px 6px; vertical-align: top; }
+        .form-table td:first-child { width: 24%; padding-top: 16px; }
+        .form-table td:nth-child(2) { width: 51%; }
+        .form-table td:last-child { color: #b42318; font-size: 12px; }
+        input[type=text], input[type=number], input[type=datetime],
+        input[type=datetime-local], input[type=date], textarea, select {
+            width: 100%;
+            padding: 9px 10px;
+            border: 1px solid #bbb;
+            border-radius: 3px;
+            background: #fff;
+            color: #333;
+            font: inherit;
+        }
+        textarea { min-height: 100px; resize: vertical; }
+        input:focus, textarea:focus, select:focus {
+            outline: 2px solid #c1d9ed;
+            border-color: #337ab7;
+        }
+        .input-validation-error { border-color: #b42318 !important; }
+        .table-wrap { overflow-x: auto; margin-top: 16px; }
+        .feedback-table { width: 100%; border-collapse: collapse; }
+        .feedback-table th, .feedback-table td {
+            padding: 10px 12px;
+            border: 1px solid #d3d9df;
+            text-align: left;
+            vertical-align: top;
+            overflow-wrap: anywhere;
+        }
+        .feedback-table th { background: #e8eef4; color: #29465e; }
+        .feedback-table tr:nth-child(odd) td { background: #f8f9fa; }
+        .footer { text-align: center; color: #666; font-size: 13px; }
+        .footer strong { color: #444; }
+        @@media (max-width: 600px) {
+            body { padding: 12px; }
+            .container { padding: 16px; }
+            h1 { font-size: 22px; }
+            .form-table, .form-table tbody, .form-table tr, .form-table td {
+                display: block;
+                width: 100% !important;
+            }
+            .form-table td { padding: 3px 0; }
+            .form-table td:first-child { padding-top: 12px; }
+            .form-table td:last-child:empty { display: none; }
+            .feedback-table { min-width: 600px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Feedback Management System</h1>
+        <hr />
+
+        @RenderBody()
+
+        <hr />
+        <div class="footer">
+            <strong>Marwadi University</strong><br />
+            Department of Computer Engineering
+        </div>
+    </div>
+</body>
+</html>

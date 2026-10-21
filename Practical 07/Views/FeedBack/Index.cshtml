@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@Html.Partial("_StudentInfo")
+
+<div class="home-actions">
+    @Html.ActionLink("✎ Give Feedback", "Create", "FeedBack")
+    @Html.ActionLink("View Feedback", "List", "FeedBack",
+        null, new { @class = "secondary" })
+</div>
+
+<p class="subtitle" style="text-align:center">
+    Your feedback helps us improve the learning experience.
+</p>

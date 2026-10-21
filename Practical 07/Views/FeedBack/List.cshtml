@@ -1,0 +1,39 @@
+﻿
+@model List<FeedBackManagmentSystem.Models.FeedBack>
+
+@{
+    ViewBag.Title = "Feedback List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h5>Student Feedback List</h5>
+<p class="subtitle">Review feedback submitted by students.</p>
+
+<div class="table-wrap">
+    <table class="feedback-table">
+        <tr>
+            <th>Enrollment No</th>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Subject</th>
+            <th>Rating</th>
+            <th>Comment</th>
+        </tr>
+
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td>@i.EnrollMentNo</td>
+                <td>@i.Name</td>
+                <td>@i.Course</td>
+                <td>@i.Subject</td>
+                <td>@i.Rating</td>
+                <td>@i.Comments</td>
+            </tr>
+        }
+    </table>
+</div>
+
+<br />
+@Html.ActionLink("← Back to Home", "Index", "FeedBack",
+    null, new { @class = "secondary" })
